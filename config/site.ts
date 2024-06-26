@@ -1,8 +1,8 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Next.js + NextUI",
-  description: "Make beautiful websites regardless of your design experience.",
+  name: "블로그 작성중",
+  description: "개발자 최재민.",
   navItems: [
     {
       label: "Home",
@@ -39,10 +39,6 @@ export const siteConfig = {
       href: "/projects",
     },
     {
-      label: "Team",
-      href: "/team",
-    },
-    {
       label: "Calendar",
       href: "/calendar",
     },
@@ -51,19 +47,15 @@ export const siteConfig = {
       href: "/settings",
     },
     {
-      label: "Help & Feedback",
-      href: "/help-feedback",
-    },
-    {
       label: "Logout",
       href: "/logout",
     },
   ],
   links: {
-    github: "https://github.com/nextui-org/nextui",
-    twitter: "https://twitter.com/getnextui",
+    github: "https://github.com",
+    // twitter: "https://twitter.com/getnextui",
     docs: "https://nextui.org",
-    discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev",
+    // discord: "https://discord.gg/9b6yyZKmH4",
+    // sponsor: "https://patreon.com/jrgarciadev",
   },
 };
